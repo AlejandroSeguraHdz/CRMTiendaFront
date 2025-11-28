@@ -55,7 +55,7 @@ function App() {
                           <main className="flex-1 p-5">
                             <AtajosVender />
                             <Routes>
-                              <Route path="/" element={<HomePage />} />
+                              <Route path="/" element={<LoginPage />} />
                               <Route path="/login" element={<LoginPage />} />
 
                               <Route element={<ProtectedRoute />}>
